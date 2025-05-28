@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60-Day .NET & Angular Interview Prep Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>60-Day .NET & Angular Interview Prep Plan</h1>
+            <p>Structured roadmap to master essential concepts, frameworks, and best practices for full-stack development interviews</p>
+            
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-value">60</div>
+                    <div class="stat-label">Days of Prep</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">10</div>
+                    <div class="stat-label">Weeks</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">120+</div>
+                    <div class="stat-label">Topics</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">200+</div>
+                    <div class="stat-label">Resources</div>
+                </div>
+            </div>
+            
+            <div class="tech-icons">
+                <div class="icon"><i class="fab fa-microsoft"></i></div>
+                <div class="icon"><i class="fab fa-angular"></i></div>
+                <div class="icon"><i class="fab fa-js"></i></div>
+                <div class="icon"><i class="fas fa-database"></i></div>
+                <div class="icon"><i class="fab fa-git-alt"></i></div>
+                <div class="icon"><i class="fas fa-cloud"></i></div>
+            </div>
+        </header>
+
+        <section class="progress-section">
+            <h2><i class="fas fa-chart-line"></i> Your Progress: <span id="progress-text">12/60 Days Completed</span></h2>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="progress-text" id="progress-percent">20%</div>
+            </div>
+            <div class="controls">
+                <button class="btn btn-primary" id="today-btn">
+                    <i class="fas fa-calendar-day"></i> Jump to Today
+                </button>
+                <button class="btn btn-secondary" id="reset-btn">
+                    <i class="fas fa-redo"></i> Reset Progress
+                </button>
+                <button class="btn btn-outline">
+                    <i class="fas fa-print"></i> Print Plan
+                </button>
+                <button class="btn btn-warning">
+                    <i class="fas fa-star"></i> Bookmark
+                </button>
+            </div>
+        </section>
+
+        <div class="plan-container">
+            <nav class="weeks-nav">
+                <h2><i class="fas fa-calendar-week"></i> Weekly Structure</h2>
+                <ul class="week-list" id="week-list">
+                    <!-- Weeks will be populated by JavaScript -->
+                </ul>
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color legend-dotnet"></div>
+                        <span>.NET Focus</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color legend-angular"></div>
+                        <span>Angular Focus</span>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="days-container" id="days-container">
+                <!-- Day cards will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <footer>
+            <p>Designed for full-stack developers preparing for technical interviews | Includes .NET Core, C#, Angular, TypeScript, and related technologies</p>
+            <p>© 2023 Full-Stack Interview Prep | Study consistently for best results</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
